@@ -1,5 +1,5 @@
 {
-  "name": "token-manager",
+  "name": "backend-token-manager",
   "version": "1.0.0",
   "description": "Backend token manager",
   "main": "./dist/index.js",
