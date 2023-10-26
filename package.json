@@ -2,7 +2,7 @@
   "name": "token-manager",
   "version": "1.0.0",
   "description": "Backend token manager",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,16 @@
     "type": "git",
     "url": "https://github.com/imnixbot/token-manager.git"
   },
-  "author": "swapnil wankhade",
-  "license": "ISC"
+  "author": "swapnil wankhade <swapnil.jnv@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
 }
